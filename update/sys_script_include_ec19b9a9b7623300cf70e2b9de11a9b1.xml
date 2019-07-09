@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_testbranch.kyayar</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>kyayar</name>
+        <script><![CDATA[var kyayar = Class.create();
+kyayar.prototype = {
+    initialize: function() {
+    },
+
+    type: 'kyayar'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-09 22:04:14</sys_created_on>
+        <sys_id>ec19b9a9b7623300cf70e2b9de11a9b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kyayar</sys_name>
+        <sys_package display_value="testbranch" source="sn_testbranch">f31831a9b7623300cf70e2b9de11a9c4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="testbranch">f31831a9b7623300cf70e2b9de11a9c4</sys_scope>
+        <sys_update_name>sys_script_include_ec19b9a9b7623300cf70e2b9de11a9b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-09 22:04:14</sys_updated_on>
+    </sys_script_include>
+</record_update>
